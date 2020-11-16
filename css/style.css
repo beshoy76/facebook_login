@@ -1,0 +1,158 @@
+body{
+	width:100%;
+	margin-top:0px;
+	margin-left:0px;
+background-size:cover;
+	background-image:url("zz.jpg");
+
+ 	  perspective: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.x
+{
+	position:absolute;
+	top:100px;
+	left:520px;
+	margin:auto;
+	
+	width:500px;
+	height:600px;
+	background-color:white;
+	
+}
+.log-form
+{
+		position:relative;
+
+		margin:auto;
+		margin-top:40px;
+		width:350px;
+		height:500px;
+		background-color:white;
+		border-radius:30px 30px 30px 30px;
+		box-shadow:20px 7px 15px rgba(50, 48, 1, 0.29) ,-7px -7px 15px rgba(50, 48, 1, 0.29);
+}
+
+.log-form h2
+{
+font-size:25	px;
+	
+	position:relative;
+	top:30px;
+	 color:blue;
+	text-shadow:2px 2px 5px rgba(50, 48, 1, 0.29) ,-2px -2px 5px rgba(50, 48, 1, 0.29);
+	 margin-left:120px;
+	
+	
+	
+}
+.log-form h4
+{
+	font-size:23px;
+	
+	position:relative;
+	top:24px;
+	 color:rgba(81, 47, 47, 0.3);
+	text-shadow:2px 2px 5px rgba(50, 48, 1, 0.29) ,-1px -2px 5px rgba(50, 48, 1, 0.29);
+	 margin-left:145px;
+	
+	
+}
+.log-form .login
+{
+	position:relative;
+	top:30px;
+	background-color:white;
+	height:400px;
+	
+	
+}
+input[name="log"]
+{
+	display:block;
+	width:80%;
+	margin-left:10%;
+	margin-top:40px;
+	height:45px;
+	border-radius:30px 30px 30px 30px;
+		
+		text-align:center;
+		font-size:15px;
+}
+
+input[name="loginn"]
+{
+	display:block;
+	width:80%;
+	margin-left:10%;
+	margin-top:40px;
+	height:45px;
+	border-radius:30px 30px 30px 30px;
+		background-color:blue;
+		color:white;
+		font-size:18px;
+}
+input[name="loginn"]:hover
+{
+	background-color:yellow;
+	
+}
+.x .log-form .login a{
+	text-decoration:none;
+	color:blue;
+	margin-top:10px;
+	position:relative;
+	top:30px;
+	left:30px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+aside
+{
+	perspective:500px;
+	transform:perserve-3d;
+	margin-top:0;
+	height:750px;
+	width:300px;
+	float:right;
+	background-color:blue;
+
+
+}
+
+
+
+aside .links a
+{
+	display:block;
+		color:white ;
+		 text-decoration:none;
+	text-align:center;
+	  
+		 margin-top:40px;
+		 height:50px;
+		 font-size:24px;
+	
+			
+		
+}
+aside .links a:hover{
+	background-color:green;
+
+	
+	
+	
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
